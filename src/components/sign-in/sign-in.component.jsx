@@ -57,7 +57,7 @@ class SignIn extends React.Component {
                         required
                     />
                     <FormInput
-                        name="email" 
+                        name="password" 
                         type="password" 
                         value={this.state.password} 
                         handleChange={this.handleChange}
